@@ -17,6 +17,8 @@ const page = (
 )
 
 ReactDOM.render(page, document.getElementById("root"))
+
+
 // const navbar = (
 //     <nav>
 //         <h1>Jimmy John's</h1>
