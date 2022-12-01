@@ -4,10 +4,8 @@ import ReactDOM from "react-dom"
 /**
 Challenge: 
 
-- Move the `footer` into its own component called "Footer" 
-  and render that component inside the Page component.
-- Move the `h1` and `ol` together into another component
-  called "MainContent" and render inside Page as well.
+- Add an `ul` inside the Header's `nav` and create
+  the following `li`s: "Pricing", "About", & "Contact"
 */
 
 function Header() {
@@ -15,16 +13,21 @@ function Header() {
         <header>
             <nav>
                 <img src="./react-logo.png" width="40px" />
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
 }
 
 function Footer() {
-    return(
+    return (
         <footer>
-                <small>© 2021 Ziroll development. All rights reserved.</small>
-            </footer>
+            <small>© 2021 Ziroll development. All rights reserved.</small>
+        </footer>
     )
 }
 
@@ -41,6 +44,7 @@ function MainContent() {
         </div>
     )
 }
+
 function Page() {
     return (
         <div>
