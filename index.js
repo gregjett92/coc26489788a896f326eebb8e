@@ -12,8 +12,8 @@ function Header() {
     return (
         <header>
             <nav className="flexbox-container">
-                <img src="./react-logo.png" width="40px" />
-                <ul className="nav-items">
+                <img className="flexbox-item" src="./react-logo.png" width="40px" />
+                <ul className="s flexbox-items-1">
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
