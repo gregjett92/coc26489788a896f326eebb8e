@@ -12,11 +12,11 @@ function Header() {
     return (
         <header>
             <nav className="flexbox-container">
-                <img className="flexbox-item" src="./react-logo.png" width="40px" />
-                <ul className="flexbox-items flexbox-items-1">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                <img className="flexbox-item flexbox-items-1" src="./react-logo.png" width="40px" />
+                <ul className="flexbox-items flexbox-items-2">
+                    <li className="flexbox-items flexbox-items-3">Pricing</li>
+                    <li className="flexbox-items flexbox-items-4">About</li>
+                    <li className="flexbox-items flexbox-items-5">Contact</li>
                 </ul>
             </nav>
         </header>
