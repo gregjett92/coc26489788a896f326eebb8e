@@ -11,7 +11,7 @@ Challenge:
 function Header() {
     return (
         <header>
-            <nav className="nav">
+            <nav className="flexbox-container">
                 <img src="./react-logo.png" width="40px" />
                 <ul className="nav-items">
                     <li>Pricing</li>
@@ -22,6 +22,7 @@ function Header() {
         </header>
     )
 }
+
 
 function Footer() {
     return (
