@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+.nav-items {
+    list-style: none;
+}
+
 .flexbox-container {
     display: flex;
     justify-content: flex-end;
@@ -11,4 +15,8 @@ html, body {
 .flexbox-items{
     margin-left: 30px;
     margin: 15px;
+}
+
+flexbox-items-1 {
+    justify-content: flex-start 
 }
