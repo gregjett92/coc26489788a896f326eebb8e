@@ -6,3 +6,7 @@ html, body {
 .nav-items {
     list-style: none;
 }
+
+.flexbox-container {
+    display: flex;
+}
